@@ -74,7 +74,7 @@ body {
 .card__header {
   min-width: 34.1rem;
   height: 23.7rem;
-  background-image: url(images/image-product-mobile.jpg);
+  background-image: url(../images/image-product-mobile.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -146,6 +146,13 @@ body {
 }
 
 @media (min-width: 37.5rem) {
+  body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
   .card {
     display: flex;
     flex-direction: row;
@@ -159,7 +166,7 @@ body {
   .card__header {
     min-width: 29.9rem;
     min-height: 44.9rem;
-    background-image: url(images/image-product-desktop.jpg);
+    background-image: url(../images/image-product-desktop.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
