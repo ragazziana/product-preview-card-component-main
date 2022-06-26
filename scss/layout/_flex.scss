@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    align-content: center;
+}
+
+.card{
+    max-width: 34.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: .8rem;
+}
+
+.card__body{
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2.4rem;
+}
+
+.card__price{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card__button{
+    width: 100%;
+}
