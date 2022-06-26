@@ -128,6 +128,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   background-color: var(--dark-cyan);
   padding-top: 1.8rem;
   padding-bottom: 1.8rem;
@@ -135,6 +136,7 @@ body {
   border-radius: 0.8rem;
   text-decoration: none;
   color: var(--white);
+  transition: 0.5s;
 }
 
 .card__button:hover {
@@ -177,8 +179,6 @@ body {
     min-width: 29.9rem;
     min-height: 44.9rem;
     border-radius: 0 0.8rem 0.8rem 0;
-    margin-top: 3.5rem;
-    margin-bottom: 3.5rem;
   }
 
   .card__title {
