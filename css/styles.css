@@ -74,7 +74,7 @@ body {
 .card__header {
   min-width: 34.1rem;
   height: 23.7rem;
-  background-image: url(/images/image-product-mobile.jpg);
+  background-image: url(images/image-product-mobile.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -98,12 +98,12 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.5rem;
   color: var(--dark-grayish-blue);
-  margin-bottom: 1.8rem;
+  margin-bottom: 1rem;
 }
 
 .card__description {
   color: var(--dark-grayish-blue);
-  margin-bottom: 2.3rem;
+  margin-bottom: 2rem;
   font-size: var(--fs-card-description);
   letter-spacing: 0.05rem;
 }
@@ -159,7 +159,7 @@ body {
   .card__header {
     min-width: 29.9rem;
     min-height: 44.9rem;
-    background-image: url(/images/image-product-desktop.jpg);
+    background-image: url(images/image-product-desktop.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -195,11 +195,12 @@ body {
   }
 
   .card__description {
-    margin-bottom: 2rem;
     line-height: 1.8rem;
+    margin-bottom: 4rem;
   }
 
   .card__price {
-    margin-top: 3.1rem;
+    margin-top: 0;
+    margin-bottom: 3.4rem;
   }
 }/*# sourceMappingURL=styles.css.map */
