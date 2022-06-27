@@ -188,6 +188,7 @@ body {
     font-size: 3.5rem;
     line-height: 1;
     margin-bottom: 3.3rem;
+    font-weight: var(--fw-bold);
   }
 
   .card__subtitle {
