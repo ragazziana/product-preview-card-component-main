@@ -11,7 +11,6 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        padding: 3rem 3.1rem 3.2rem;
     }
 
     .card__image{
@@ -36,19 +35,18 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        padding: 30px 31px 32px;
     }
 
     .card__title{
         font-size: 3.42rem;
         line-height: 3.55rem;
-        margin-bottom: 3.3rem;
         font-weight: var(--fw-bold);
     }
 
     .card__subtitle{
         letter-spacing: .42rem;
         font-size: 1.3rem;
-        margin-bottom: 2.7rem;
     }
 
     .card__button {
