@@ -11,6 +11,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
+        padding: 3rem 3.1rem 3.2rem;
     }
 
     .card__image{
@@ -38,14 +39,14 @@
     }
 
     .card__title{
-        font-size: 3.5rem;
-        line-height: 1;
+        font-size: 3.42rem;
+        line-height: 3.55rem;
         margin-bottom: 3.3rem;
         font-weight: var(--fw-bold);
     }
 
     .card__subtitle{
-        letter-spacing: .3rem;
+        letter-spacing: .42rem;
         font-size: 1.3rem;
         margin-bottom: 2.7rem;
     }
@@ -61,13 +62,12 @@
     }
 
     .card__description{
-        line-height: 1.8rem;
-        margin-bottom: 4rem;
+        font-size: 1.41rem;
+        line-height: 2.3rem;
     }
 
     .card__price{
         margin-top: 0;
-        margin-bottom: 3.4rem;
     }
 
 }
